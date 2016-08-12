@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.feicui.news.ui.fragment.RegisterFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_username_register"
+        android:hint="请输入用户名~~必须是汉字"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/et_password_register"
+        android:inputType="textPassword"
+        android:hint="请输入密码~~不少于6位"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/et_repassword_register"
+        android:inputType="textPassword"
+        android:hint="确认密码~~和上一个一样哦"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_fragment"
+        android:text="注册"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
